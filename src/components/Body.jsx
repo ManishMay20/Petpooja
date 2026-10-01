@@ -68,7 +68,7 @@ const Body = () => {
             case "popular_restaurants_title":
               dispatch(addOnlineResTitle(card?.card?.card?.title));
               break;
-            case "restaurant_grid_listing":
+            case "restaurant_grid_listing_v2":
               dispatch(
                 addOnlineRestaurants(
                   card?.card?.card?.gridElements?.infoWithStyle?.restaurants
